@@ -1,0 +1,30 @@
+/* Static, local styling; no external fonts, assets or scripts. */
+:root { color-scheme: light; --paper:#fbf9f5; --ink:#272724; --muted:#62625a; --line:#d8d5cc; --accent:#8a432f; }
+* { box-sizing:border-box; }
+body { margin:0; color:var(--ink); background:var(--paper); font:17px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; overflow-wrap:anywhere; }
+header,main,footer { width:min(100% - 40px,780px); margin-inline:auto; }
+header { padding:30px 0 22px; border-bottom:1px solid var(--line); }
+.brand { font-weight:650; letter-spacing:.01em; }
+nav { display:flex; flex-wrap:wrap; gap:6px 24px; margin-top:12px; }
+a { color:var(--accent); text-underline-offset:3px; }
+nav a { display:inline-block; padding:7px 0; }
+a[aria-current="page"] { color:var(--ink); font-weight:650; text-decoration-thickness:2px; }
+a:focus-visible { outline:3px solid var(--accent); outline-offset:5px; border-radius:2px; }
+main { padding-top:30px; padding-bottom:30px; }
+h1,h2 { font-family:Georgia,"Times New Roman",serif; line-height:1.2; font-weight:normal; }
+h1 { font-size:clamp(2.2rem,7vw,3.2rem); margin:36px 0 24px; }
+h2 { font-size:1.55rem; margin:38px 0 14px; }
+p { margin:0 0 18px; }
+ul { padding-left:24px; }
+.review { background:#f5e8df; border-left:4px solid var(--accent); padding:15px 18px; font-size:.94rem; }
+.review strong { display:block; }
+mark { background:#fff1a7; color:#362900; padding:1px 4px; }
+.documents { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:26px 0; }
+.documents a { border:1px solid var(--line); border-radius:8px; padding:20px; text-decoration:none; }
+.documents strong,.documents span { display:block; }
+.documents span { color:var(--muted); font-size:.94rem; margin-top:6px; }
+footer { border-top:1px solid var(--line); padding:24px 0 40px; color:var(--muted); font-size:.88rem; }
+.skip-link { position:absolute; left:12px; top:-100px; background:white; padding:10px; }
+.skip-link:focus { top:12px; }
+@media(max-width:520px) { .documents { grid-template-columns:1fr; } header,main,footer { width:calc(100% - 32px); } }
+@media print { body { color:#000; background:#fff; font-size:11pt; } header,main,footer { width:100%; } nav,.skip-link { display:none; } a { color:#000; } h2 { break-after:avoid; } }
