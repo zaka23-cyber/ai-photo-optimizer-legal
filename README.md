@@ -2,7 +2,7 @@
 
 English Privacy Policy and Terms for **Zakaria El Rrami, individual developer, Denmark**. The app is intended for adults **18+**.
 
-**Review draft only.** GitHub Pages is not enabled. The postal address and privacy/support email are placeholders. OpenAI optional data-sharing settings remain unverified. No effective date or paid-AI approval is implied.
+**Review draft only.** GitHub Pages is not enabled. The postal address and privacy/support email have been populated. OpenAI optional data-sharing settings remain unverified. No effective date or paid-AI approval is implied.
 
 This public repository contains only static legal pages, local CSS and these instructions. Keep app source, credentials, API keys, personal photos, analysis results and private project evidence out of it. The pages have no JavaScript, forms, remote fonts, trackers or dependencies.
 
@@ -18,7 +18,7 @@ Edit the HTML directly. No build, Node installation, Docker, local Supabase or h
 
 ## Before approving publication
 
-1. Replace **[INSERT ADDRESS]** and **[INSERT EMAIL]** in the pages with the actual public contact information. The email should be a working privacy/support address.
+1. Public contact information is populated: Holmbladsgade 63B, st. th., 2300 Copenhagen S, Denmark; z68827163@gmail.com. The support email matches ZELGI's existing support page.
 2. Complete the OpenAI setting check below. The current wording deliberately states that sharing is unverified; do not replace it with a disabled claim without confirmation.
 3. Review the actual retention statement: photos/results are not saved in the app's database, but security, consent, job and spending metadata have no scheduled general purge. Review necessity, legal bases, processor/transfer arrangements and the handling of valid erasure requests. Do not promise an automatic 30-day backend purge or delete spending history to restart the test allowance.
 4. Approve the final wording and effective date. Replace the draft notices/introduction/footer date language and remove the `noindex, nofollow` meta tags only when the pages are final. Keeping a review banner is appropriate for review copies, not a finished policy.
